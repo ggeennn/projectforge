@@ -1,0 +1,40 @@
+{
+    "projects": [
+      {
+        "name": "NoteHub",
+        "category": "Full Stack",
+        "stack": ["React", "Node.js", "Express", "PostgreSQL"],
+        "status": "active",
+        "keywords": ["REST API", "CRUD", "JWT", "Vercel", "Render"]
+      },
+      {
+        "name": "BankDB Sim",
+        "category": "Data Systems",
+        "stack": ["PostgreSQL", "Shell", "SQL Scripts"],
+        "status": "planned",
+        "keywords": ["Database Design", "Backup", "Recovery", "Finance Simulation"]
+      },
+      {
+        "name": "ResumeAI",
+        "category": "Utility",
+        "stack": ["HTML", "JavaScript", "OpenAI API"],
+        "status": "planned",
+        "keywords": ["Resume", "Prompt", "Generator"]
+      },
+      {
+        "name": "PortfolioPage",
+        "category": "Web Frontend",
+        "stack": ["HTML", "CSS", "JS"],
+        "status": "online",
+        "keywords": ["Vercel", "Responsive", "Self-Host"]
+      },
+      {
+        "name": "ProjectForge",
+        "category": "Meta System",
+        "stack": ["Markdown", "Prompt", "Cursor IDE"],
+        "status": "active",
+        "keywords": ["Project Management", "AI Prompt", "GPT Integration"]
+      }
+    ]
+  }
+  
