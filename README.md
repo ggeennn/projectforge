@@ -13,14 +13,18 @@ ProjectForge 是我基于 GPT + Cursor AI 自主设计的“全栈学习与项�
 
 ```
 projectforge/
-├── README.md            ← 本文件
-├── personal-profile.md  ← 个人背景与定位
-├── prompts/             ← 各项目的 prompt 模版（Markdown）
-│   ├── notehub.md
-│   └── bankdb-sim.md
-├── plans/               ← 阶段性技能规划、路线图
-│   └── roadmap.md
-├── portfolio.json       ← 项目清单与属性（结构化管理）
+├── README.md ← 本文件
+├── prompts/ ← 各项目的 prompt 模版（Markdown）
+│ ├── notehub.md
+│ └── bankdb-sim.md
+├── plans/ ← 阶段性技能规划、路线图
+│ └── roadmap.md
+├── context/ ← 项目运行上下文，AI 角色配置，个人背景
+│ ├── meta-context.md ← 自我背景与目标
+│ ├── project-glossary.md ← 关键词解释与术语定义
+│ ├── prompt-style.md ← 对话风格 + AI 期待行为
+│ └── context-template.md ← 可复制用的上下文封装模版
+├── portfolio.json ← 项目清单与属性（结构化管理）
 └── .gitignore
 ```
 
@@ -55,3 +59,27 @@ projectforge/
 - 项目模版自动化生成脚本（Python）
 - JSON / Markdown 到 Web 展示系统
 - GPT Prompt 存档版本控制（PromptForge 子模块）
+
+---
+
+## 🧰 ProjectForge 使用指南（跨平台 AI 移植）
+
+ProjectForge 除了作为项目管理工具，也是一个“AI Prompt 移植包”，帮助我在任何 Chat / IDE 中复用背景上下文与对话风格。
+
+### 📂 核心文件说明
+
+| 文件 | 用途 |
+|------|------|
+| `meta-context.md` | 我的背景、学习风格、目标方向等 |
+| `project-glossary.md` | 项目与术语关键词解释 |
+| `prompt-style.md` | 对话结构、教学风格、AI 角色指引 |
+| `context-template.md` | 可复制粘贴的 prompt 入口模板，适配 GPT、Gemini、Cursor 等平台 |
+
+### 🧠 推荐用法
+
+1. 💬 开始新对话时，复制 `context-template.md` 内容作为启动语
+2. 📎 提示 AI：“请读取本项目 README 和 meta-context.md 了解背景”
+3. 🔄 需要术语解释时，引导 AI 查看 `project-glossary.md`
+4. 🎓 生成风格偏差时，引导 AI 参照 `prompt-style.md`
+
+🧙‍♂️ 这就是我的“AI 工作流加载器”！
