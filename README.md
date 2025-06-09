@@ -84,6 +84,7 @@ ProjectForge 除了作为项目管理工具，也是一个“AI Prompt 移植包
 
 🧙‍♂️ 这就是我的“AI 工作流加载器”！
 ---
+---
 
 ## 📦 如何使用此项目与 AI 聊天助手协同开发
 
@@ -92,10 +93,34 @@ ProjectForge 除了作为项目管理工具，也是一个“AI Prompt 移植包
 ### 📌 移植步骤（适用于 GPT / Gemini / Cursor 等）
 
 1. 将本项目文件夹或 `.zip` 上传至你的 AI 工具（如 Gemini 文件上传区）
-2. 粘贴以下提示词启动会话 ：
+2. 粘贴以下提示词启动会话：
 
    ```
-   你是我的 AI 项目导师，请读取 mcp-config.json 中列出的文档，并据此理解我的背景、学习目标与项目架构，接下来请帮助我完成当前项目任务。
+   你是我的 AI 项目导师，请读取 mcp-config.json 中列出的所有文档，并据此理解我的背景、学习目标、项目结构与可用 prompts，接下来请帮助我完成当前任务。
    ```
 
-3. AI 将自动读取如 `roadmap.md`、`prompt-style.md`、`meta-context.md` 等核心上下文文档
+3. AI 将自动加载以下核心资源：
+   - `plans/roadmap.md`：技能路径规划
+   - `plans/status.md`：项目当前进度
+   - `context/prompt-style.md`：提示词风格规范
+   - `context/meta-context.md`：学习者背景描述
+   - `prompts/*.md`：每个项目的详细任务描述
+   - `prompthub/prompts.json`：标准化任务 prompt 模板（支持自动建议）
+
+---
+
+## 📂 关于项目 prompts/*.md 的使用建议
+
+每个子项目（如 NoteHub、BankDB Sim）在 `prompts/` 目录中有独立的 `.md` 文件，用于描述其项目背景、目标与任务流程。
+
+这些 `.md` 文件 **未包含在 mcp-config.json 中**，以避免信息过载。
+
+### ✅ 使用方式建议：
+
+- 在启动某个项目任务时，**明确让 AI 读取对应的 `.md` 文件**
+- 示例提示词：
+  ```
+  当前我正处理 NoteHub 项目，请加载 prompts/notehub.md 并结合上下文帮助我完成登录功能设计。
+  ```
+
+此策略支持更清晰的分项目任务流程，避免 AI 在多项目之间混淆。

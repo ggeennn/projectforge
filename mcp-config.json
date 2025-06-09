@@ -41,6 +41,12 @@
       "path": "portfolio.json",
       "type": "json",
       "description": "作品集项目元数据配置，用于智能索引/生成卡片"
+    },
+    {
+      "name": "Prompt Templates",
+      "path": "prompthub/prompts.json",
+      "type": "json",
+      "description": "标准化 prompts 模板定义，供 MCP 访问"
     }
   ]
 }

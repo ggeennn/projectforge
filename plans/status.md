@@ -5,3 +5,4 @@
 | NoteHub | 🟡 开发中 | 2025-06-08 | 已完成登录界面 + Express API 骨架 |
 | BankDB Sim | 🔴 计划中 | - | 待从 ER 图设计入手 |
 | ProjectForge | 🟢 正式上线 | 2025-06-08 | 所有文档结构已构建完毕 |
+| PromptHub | 🟢 使用中 | 2025-06-08 | MCP Prompt 模板模块已建立 |

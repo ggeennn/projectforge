@@ -1,0 +1,26 @@
+{
+  "name": "PromptHub Templates",
+  "description": "用于辅助 NoteHub、BankDB Sim 等项目的标准化 prompts 模板集合",
+  "templates": [
+    {
+      "id": "notehub.login",
+      "description": "生成 NoteHub 登录页组件（支持权限控制）",
+      "project": "NoteHub",
+      "tags": [
+        "auth",
+        "react",
+        "nodejs"
+      ]
+    },
+    {
+      "id": "bankdb.sql-crud",
+      "description": "生成模拟银行系统的 CRUD SQL 模块",
+      "project": "BankDB Sim",
+      "tags": [
+        "sql",
+        "crud",
+        "finance"
+      ]
+    }
+  ]
+}

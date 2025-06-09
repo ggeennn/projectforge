@@ -34,7 +34,14 @@
         "stack": ["Markdown", "Prompt", "Cursor IDE"],
         "status": "active",
         "keywords": ["Project Management", "AI Prompt", "GPT Integration"]
-      }
+      },
+      {
+        "name": "PromptHub",
+        "category": "Prompt Tools",
+        "stack": ["JSON", "MCP", "Cursor", "Prompt Design"],
+        "status": "active",
+        "keywords": ["Prompt Management", "AI Templates", "Context Protocol"]
+      }      
     ]
   }
   
