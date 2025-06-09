@@ -1,17 +1,10 @@
 {
   "resources": [
-    
     {
       "name": "Project Readme",
       "path": "README.md",
       "type": "markdown",
       "description": "主项目使用说明"
-    },
-    {
-      "name": "Context Template",
-      "path": "context/context-template.md",
-      "type": "markdown",
-      "description": "启动 AI 对话用的 prompt 初始化模板"
     },
     {
       "name": "Roadmap",
@@ -30,6 +23,24 @@
       "path": "context/meta-context.md",
       "type": "markdown",
       "description": "学习者背景与行为模型"
+    },
+    {
+      "name": "Context Template",
+      "path": "context/context-template.md",
+      "type": "markdown",
+      "description": "启动 AI 对话用的 prompt 初始化模板"
+    },
+    {
+      "name": "Project Status Tracker",
+      "path": "plans/status.md",
+      "type": "markdown",
+      "description": "记录各项目当前阶段与进度"
+    },
+    {
+      "name": "Portfolio Metadata",
+      "path": "portfolio.json",
+      "type": "json",
+      "description": "作品集项目元数据配置，用于智能索引/生成卡片"
     }
   ]
 }
