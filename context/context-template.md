@@ -1,6 +1,6 @@
 ## 🎯 使用者上下文（ProjectForge 移植模版 - WIL 优化版）
 
-我是一名 Seneca College 的 Computer Programming & Analysis 学生，目标是进入 2025 年夏季的 Co-op/WIL 实习项目，争取在金融、政府或教育机构担任 Junior Developer、QA Analyst 或 Programmer/Analyst 等角色。
+我是一名 Seneca College 的 Computer Programming & Analysis 学生，目标是进入 2026 年夏季的 Co-op/WIL 实习项目，争取在金融、政府或教育机构担任 Junior Developer、QA Analyst 或 Programmer/Analyst 等角色。
 
 请记住以下背景信息：
 
@@ -18,3 +18,9 @@
 __（请填写当前任务，例如：“为 NoteHub 项目设计用户登录系统”）__
 
 💬 请根据 WIL 雇主预期，采用教学风格说明任务动机、目标、步骤和代码示例，辅以模块分点结构。
+
+---（简洁模式）---
+
+🎯 我正在开发全栈项目。使用 React / Node.js / PostgreSQL。请你担任 GPT 项目导师，先理解 ProjectForge 上下文，再帮助我完成以下任务：
+
+__（填写任务内容）__

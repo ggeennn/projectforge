@@ -1,0 +1,35 @@
+{
+  "resources": [
+    
+    {
+      "name": "Project Readme",
+      "path": "README.md",
+      "type": "markdown",
+      "description": "主项目使用说明"
+    },
+    {
+      "name": "Context Template",
+      "path": "context/context-template.md",
+      "type": "markdown",
+      "description": "启动 AI 对话用的 prompt 初始化模板"
+    },
+    {
+      "name": "Roadmap",
+      "path": "plans/roadmap.md",
+      "type": "markdown",
+      "description": "全栈成长路线图"
+    },
+    {
+      "name": "Prompt Style Guide",
+      "path": "context/prompt-style.md",
+      "type": "markdown",
+      "description": "提示词风格指引"
+    },
+    {
+      "name": "Meta Context",
+      "path": "context/meta-context.md",
+      "type": "markdown",
+      "description": "学习者背景与行为模型"
+    }
+  ]
+}

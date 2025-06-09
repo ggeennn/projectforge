@@ -23,7 +23,7 @@ projectforge/
 │ ├── meta-context.md ← 自我背景与目标
 │ ├── project-glossary.md ← 关键词解释与术语定义
 │ ├── prompt-style.md ← 对话风格 + AI 期待行为
-│ └── context-template.md ← 可复制用的上下文封装模版
+│ └── context-template.md ← 可复制用的上下文封装模版（已集成 MCP 调用）
 ├── portfolio.json ← 项目清单与属性（结构化管理）
 └── .gitignore
 ```
@@ -73,13 +73,29 @@ ProjectForge 除了作为项目管理工具，也是一个“AI Prompt 移植包
 | `meta-context.md` | 我的背景、学习风格、目标方向等 |
 | `project-glossary.md` | 项目与术语关键词解释 |
 | `prompt-style.md` | 对话结构、教学风格、AI 角色指引 |
-| `context-template.md` | 可复制粘贴的 prompt 入口模板，适配 GPT、Gemini、Cursor 等平台 |
+| `context-template.md` | 可复制粘贴的 prompt 入口模板，适配 GPT、Gemini、Cursor 等平台 |（已集成 MCP 调用）
 
 ### 🧠 推荐用法
 
-1. 💬 开始新对话时，复制 `context-template.md` 内容作为启动语
+1. 💬 开始新对话时，复制 `context-template.md` 内容作为启动语（已集成 MCP 调用）
 2. 📎 提示 AI：“请读取本项目 README 和 meta-context.md 了解背景”
 3. 🔄 需要术语解释时，引导 AI 查看 `project-glossary.md`
 4. 🎓 生成风格偏差时，引导 AI 参照 `prompt-style.md`
 
 🧙‍♂️ 这就是我的“AI 工作流加载器”！
+---
+
+## 📦 如何使用此项目与 AI 聊天助手协同开发
+
+本项目支持基于 [MCP 协议（Model Context Protocol）](https://modelcontext.org/) 的上下文统一调用。
+
+### 📌 移植步骤（适用于 GPT / Gemini / Cursor 等）
+
+1. 将本项目文件夹或 `.zip` 上传至你的 AI 工具（如 Gemini 文件上传区）
+2. 粘贴以下提示词启动会话 ：
+
+   ```
+   你是我的 AI 项目导师，请读取 mcp-config.json 中列出的文档，并据此理解我的背景、学习目标与项目架构，接下来请帮助我完成当前项目任务。
+   ```
+
+3. AI 将自动读取如 `roadmap.md`、`prompt-style.md`、`meta-context.md` 等核心上下文文档

@@ -9,9 +9,11 @@
 - **BankDB Sim**：银行数据建模 + 恢复演练 SQL 项目
 - **Cursor AI**：我当前主要使用的 IDE，支持 AI 原生补全与对话
 - **PromptPack**：用于移植的 prompt+背景上下文封装包
+- **Status Tracker**：记录当前各项目阶段、进度、任务历史的系统
 
 ## 技术简写
 
 - CRUD：Create, Read, Update, Delete
 - JWT：JSON Web Token，用于用户身份认证
 - REST API：基于 HTTP 的接口通信规范
+- ER 图：Entity-Relationship 图，用于数据库建模
