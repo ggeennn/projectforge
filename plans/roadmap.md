@@ -1,3 +1,10 @@
+
+## 🆕 实战加速阶段（2025年6月优先启动）
+
+- AI Video Factory：参考 [视频链接](https://youtu.be/XB3jCQYcj_0?si=NfSzqtJVhZv10B-0)
+- Web RAG Workflow：参考 [视频链接](https://youtu.be/Y6C7kpNSrd4?si=rayxcu1TP-waTvZ_)
+
+
 # 🗺️ 全栈技能成长路线图（ProjectForge · 2024–2025）
 
 🎯 **最终目标：2026年初完成3+个实战项目，获得金融或政府类 WIL 实习岗位**

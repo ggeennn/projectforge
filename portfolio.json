@@ -1,47 +1,137 @@
-{
+[
+  {
+    "name": "AI Video Factory",
+    "category": "AI Automation",
+    "stack": [
+      "Python",
+      "FFmpeg",
+      "Video Automation",
+      "AI Integration"
+    ],
+    "status": "planned",
+    "keywords": [
+      "AI Video Generation",
+      "Automation",
+      "FFmpeg",
+      "Scripting"
+    ],
+    "reference": "https://youtu.be/XB3jCQYcj_0?si=NfSzqtJVhZv10B-0"
+  },
+  {
+    "name": "Web RAG Workflow",
+    "category": "AI Knowledge Workflow",
+    "stack": [
+      "n8n",
+      "RAG",
+      "Crawl4AI",
+      "Automation"
+    ],
+    "status": "planned",
+    "keywords": [
+      "Web Crawling",
+      "RAG",
+      "Automation",
+      "Workflow"
+    ],
+    "reference": "https://youtu.be/Y6C7kpNSrd4?si=rayxcu1TP-waTvZ_"
+  },
+  {
     "projects": [
       {
         "name": "NoteHub",
         "category": "Full Stack",
-        "stack": ["React", "Node.js", "Express", "PostgreSQL"],
+        "stack": [
+          "React",
+          "Node.js",
+          "Express",
+          "PostgreSQL"
+        ],
         "status": "active",
-        "keywords": ["REST API", "CRUD", "JWT", "Vercel", "Render"]
+        "keywords": [
+          "REST API",
+          "CRUD",
+          "JWT",
+          "Vercel",
+          "Render"
+        ]
       },
       {
         "name": "BankDB Sim",
         "category": "Data Systems",
-        "stack": ["PostgreSQL", "Shell", "SQL Scripts"],
+        "stack": [
+          "PostgreSQL",
+          "Shell",
+          "SQL Scripts"
+        ],
         "status": "planned",
-        "keywords": ["Database Design", "Backup", "Recovery", "Finance Simulation"]
+        "keywords": [
+          "Database Design",
+          "Backup",
+          "Recovery",
+          "Finance Simulation"
+        ]
       },
       {
         "name": "ResumeAI",
         "category": "Utility",
-        "stack": ["HTML", "JavaScript", "OpenAI API"],
+        "stack": [
+          "HTML",
+          "JavaScript",
+          "OpenAI API"
+        ],
         "status": "planned",
-        "keywords": ["Resume", "Prompt", "Generator"]
+        "keywords": [
+          "Resume",
+          "Prompt",
+          "Generator"
+        ]
       },
       {
         "name": "PortfolioPage",
         "category": "Web Frontend",
-        "stack": ["HTML", "CSS", "JS"],
+        "stack": [
+          "HTML",
+          "CSS",
+          "JS"
+        ],
         "status": "online",
-        "keywords": ["Vercel", "Responsive", "Self-Host"]
+        "keywords": [
+          "Vercel",
+          "Responsive",
+          "Self-Host"
+        ]
       },
       {
         "name": "ProjectForge",
         "category": "Meta System",
-        "stack": ["Markdown", "Prompt", "Cursor IDE"],
+        "stack": [
+          "Markdown",
+          "Prompt",
+          "Cursor IDE"
+        ],
         "status": "active",
-        "keywords": ["Project Management", "AI Prompt", "GPT Integration"]
+        "keywords": [
+          "Project Management",
+          "AI Prompt",
+          "GPT Integration"
+        ]
       },
       {
         "name": "PromptHub",
         "category": "Prompt Tools",
-        "stack": ["JSON", "MCP", "Cursor", "Prompt Design"],
+        "stack": [
+          "JSON",
+          "MCP",
+          "Cursor",
+          "Prompt Design"
+        ],
         "status": "active",
-        "keywords": ["Prompt Management", "AI Templates", "Context Protocol"]
-      }      
+        "keywords": [
+          "Prompt Management",
+          "AI Templates",
+          "Context Protocol"
+        ]
+      }
     ]
   }
-  
+]

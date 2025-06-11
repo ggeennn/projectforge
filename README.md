@@ -124,3 +124,13 @@ ProjectForge 除了作为项目管理工具，也是一个“AI Prompt 移植包
   ```
 
 此策略支持更清晰的分项目任务流程，避免 AI 在多项目之间混淆。
+---
+
+## 📈 新增实战项目优先顺序
+
+在 2025 年 6 月，新增以下两个高优先实战训练项目：
+
+- **AI Video Factory**：AI 视频自动化生产流程（参考 https://youtu.be/XB3jCQYcj_0?si=NfSzqtJVhZv10B-0）
+- **Web RAG Workflow**：网页抓取与 RAG 工作流搭建（参考 https://youtu.be/Y6C7kpNSrd4?si=rayxcu1TP-waTvZ_）
+
+这些项目已更新进 `portfolio.json`、`status.md` 及 `roadmap.md`，并可在 `prompts/` 下找到对应的任务说明。
