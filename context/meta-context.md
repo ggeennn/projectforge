@@ -22,14 +22,6 @@
 - Interested in backend development + automation + applied AI
 - Focus on work-from-home readiness and asynchronous workflows
 
-## 🧩 项目/作品集方向建议关键词
-
-- AI-assisted tools for small business ops (e.g., fitness or construction CRM)
-- Cross-domain integration: projects linking physical industry data with tech solutions
-- Self-hosted portfolio website with resume, interactive demos, and blog
-- Prompt-based video generation tool (e.g., “导演网” project)
-- SQL+JS-driven dashboards for personal finance, fitness tracking, or project management
-
 ## 💼 求职竞争力定位
 
 - Positioned as low-cost, high-adaptability AI-powered junior developer
@@ -44,3 +36,10 @@
 - Focus resume on AI-assisted projects + fast learning examples
 - Highlight project-based learning, adaptability, and low training cost
 - Practice behavioral interview stories around: learning under pressure, solving problems from scratch, client-focused thinking
+
+## 🧩 项目/作品集方向建议关键词
+
+- AI-assisted tools for small business ops (e.g., fitness or construction CRM)
+- Cross-domain integration: projects linking physical industry data with tech solutions
+- Self-hosted portfolio website with resume, interactive demos, and blog
+- SQL+JS-driven dashboards for personal finance, fitness tracking, or project management
